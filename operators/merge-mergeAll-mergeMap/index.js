@@ -10,7 +10,7 @@ import Rx from 'rxjs';
 // Does not wait for previous observable to complete to start the next one
 // Hard to determine post-merge what the source was
 
-// mergeAll - static operator
+// mergeAll
 // Merges all provided observables
 
 // mergeMap

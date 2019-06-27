@@ -5,7 +5,7 @@ import Rx from 'rxjs';
 // Duration is specified as a number
 
 // delayWhen
-// like dely
+// like delay
 // instead of a number, a method which returns the duration of the delay is provided
 
 

@@ -8,4 +8,4 @@ Rx.Observable
   .subscribe({
     next: n => console.log('N value was emitted', n),
     error: error => console.log(error),
-  })
+  });

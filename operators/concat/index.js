@@ -7,7 +7,7 @@ Rx.Observable
   // .range(1, 10)
   .interval(100)
   .take(20)
-  .concat(Rx.Observable.interval(100).mapTo('#2'))
+  .concat(Rx.Observable.interval(100).map(i => `#${i}`))
   .subscribe(console.log)
 
 // The trick with interval - it emits anyway

@@ -10,7 +10,8 @@ export default {
         // concatAll: './higher-order-observables/concatAll.js',
         // switchMap: './higher-order-observables/switchMap.js',
         // mergeMap: './higher-order-observables/mergeMap.js',
-        concatMap: './higher-order-observables/concatMap.js',
+        // concatMap: './higher-order-observables/concatMap.js',
+        window: './higher-order-observables/window.js',
     },
     output:{
         path: path.resolve(__dirname),
